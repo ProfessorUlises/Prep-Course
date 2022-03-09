@@ -28,33 +28,39 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-
+    return str;
 }
-devolverString(str)
-
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+      var suma = x + y;
+      return suma;
+
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
-}
+      var resta = x - y;
+      return resta;
 
-function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
-  
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+      var divide = x / y;
+      return divide;
+
+}
+
+function multiplica(x, y) {
+  // Multiplica "x" por "y" y devuelve el valor
+  // Tu código:
+      var multiplica = x * y;
+      return multiplica;
   
 }
 
@@ -62,6 +68,8 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+      var sonIguales x === y;
+      return sonIguales;
   
 }
 
@@ -69,7 +77,13 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var name1 = console.log('$str1'.length)
+  var name2 = console.log('$str2'.length)
+if ( name1 === name2 ) {
+   return true;
+}
+   return false;
+}
 }
 
 function menosQueNoventa(num) {
