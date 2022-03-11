@@ -93,6 +93,7 @@ function mayorQueCincuenta(num) {
     return true;
   }
     return false;
+
 }
 
 function obtenerResto(x, y) {
